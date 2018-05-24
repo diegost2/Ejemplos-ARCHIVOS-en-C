@@ -10,7 +10,7 @@ int main()
 
     if(pArchivo!=NULL)
     {
-        fprintf(pArchivo,"%s %d",cadena,156);
+        fprintf(pArchivo,"%s %d",cadena,156); //solo se le pasa string // se puede pasar otro tipo de dato pero siempre empezando por string.
         fclose(pArchivo);
         printf("Guardado!");
     }
@@ -24,11 +24,11 @@ int main()
 
     if(pArchivo!=NULL)
     {
-        while(!feof(pArchivo))
+        while(!feof(pArchivo))//(mientras no sea el final) !feof = muestra las demas lineas
         {
 
-         fgets(cadena,50,pArchivo);
-         puts(cadena);
+         fgets(cadena,50,pArchivo);// fgets = lee solo la primera linea
+         puts(cadena);// indicador de final de linea
         }
         fclose(pArchivo);
     }*/

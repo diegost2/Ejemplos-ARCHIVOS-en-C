@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1527174868 source:c:\users\alumno\desktop\html2\main.c
+	<stdio.h>
+	<stdlib.h>
+
